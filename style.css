@@ -1,0 +1,13 @@
+body {
+    background: url('assets/jors.jpg') repeat 0 0;
+    animation: moving-bg 5s linear infinite;
+  }
+  
+  @keyframes moving-bg {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
